@@ -20,7 +20,7 @@
 #
 
 VER="v2.10"
-DOWNLOAD_URL="http://moodeaudio.org/downloads/mos"
+DOWNLOAD_URL="https://github.com/TKaluza/mosbuild/blob/master/"
 
 # check environment
 [[ $EUID -ne 0 ]] && { echo "You must use sudo to run the OS Builder" ; exit 1 ; } ;
