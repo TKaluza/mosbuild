@@ -285,7 +285,7 @@ STEP_3B_4 () {
 	autoreconf --install
 	mkdir build
 	cd build
-	../configure --disable-hcitop --with-alsaplugindir=/usr/lib/arm-linux-gnueabihf/alsa-lib
+	../configure --enable-aac --enable-aptx --enable-ldac --disable-hcitop --with-alsaplugindir=/usr/lib/arm-linux-gnueabihf/alsa-lib
 	if [ $? -ne 0 ] ; then
 		cancelBuild "** Error: Configure failed"
 	fi
